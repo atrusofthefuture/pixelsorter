@@ -227,6 +227,8 @@ def print_paths_help():
     print(" - random-walk-vertical          Pixels sorted in random walks moving vertically over the image. ")
     print(" - vertical:                     Pixels sorted vertically.")
 
+def do_nothing():
+    return null
 
 def main():
     args = get_cli_args()
